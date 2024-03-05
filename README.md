@@ -1,2 +1,6 @@
 # encode-ais
-Simple encoder in Jaavasccript
+Simple encoder in Jaavascript
+
+---
+permalink: /index.html
+---
