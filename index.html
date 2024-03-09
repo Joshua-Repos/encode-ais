@@ -17,15 +17,18 @@ input[type=text] {
   margin: 8px 0;
   box-sizing: border-box;
 } 
-.button {
-      background-color: #DCDCDC;
-      color: white;
-      padding: 14px 20px;
-      margin: 8px 0;
-      border: none;
-      border-radius: 4px;
-      cursor: pointer;
-      font: normal 20px Verdana, Arial, sans-serif;
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: #DCDCDC;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  font: normal 20px Verdana, Arial, sans-serif;
 }
 body, input {
   font: normal 10px Verdana, Arial, sans-serif;
@@ -38,7 +41,7 @@ body, input {
     <script src="encoder.js">
     </script>
     Input: <input type="text" id="mytext">
-    <button id="myBtn" type="button"  onclick="encodeText()">Encode</button>
+    <input type="button" value="Decode"  onclick="encodeText()">
 
     <div id="encodedDiv" Display:none>
     </div>
